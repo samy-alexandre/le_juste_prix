@@ -24,7 +24,7 @@ function verifier(nombre) {
     instruction.className = "instruction moins";
   } else {
     instruction.textContent =
-      "#" + coups + "(" + nombre + ") Vous avez trouvé le juste prix";
+      "#" + coups + "(" + nombre + ") Vous avez trouvé le juste prix !";
     instruction.className = "instruction fini";
   }
 
